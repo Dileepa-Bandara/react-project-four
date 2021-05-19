@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.image__container {
+  width: 100%;
+  position: relative;
+}
+
+.opacity__container {
+  height: 100vh;
+  width: 100%;
+  background: black;
+  opacity: 0.5;
+  position: absolute;
+  z-index: 10;
+}
+
+.image__container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  object-fit: fill;
+}
