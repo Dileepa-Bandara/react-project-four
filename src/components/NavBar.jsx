@@ -25,7 +25,7 @@ function NavBar() {
       <AppBar>
         <Toolbar>
           <Typography>Random Advicer</Typography>
-          <a href="#" className={classes.link}>
+          <a href="https://github.com/Dileepa-Bandara/react-project-four.git" className={classes.link}>
             Code
           </a>
         </Toolbar>
