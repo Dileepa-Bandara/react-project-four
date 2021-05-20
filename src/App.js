@@ -20,10 +20,10 @@ function App() {
 
       .catch((err) => {
         console.log(err);
-      },[]);
+      });
 
-    return;
-  });
+
+  },[count]);
 
   const adviceFunction = () => {
     setCount((e) => e + 1);
